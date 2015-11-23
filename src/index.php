@@ -20,8 +20,3 @@ if (count($_POST)) {
     ]);
 }
 echo $form;
-?>
-
-<h1>Zadání</h1>
-<p>Cílem je aby formulářem procházely jen platné hodnoty. Představ si, že je budeme dále používat. Na emailovou adresu budeme posílat nějaké potvrzení a na telefon budeme přes API posílat SMSku. Pokud se ti podaří uživatele našimi omezeními co nejméně otravovat, tak to bude skvělé. Takže pokud dokážeš zadaný údaj "opravit", tak se o to pokus.</p>
-<p>Ve složce <code>tests</code> jsou připravené testy, které by ti měli pomoct zkontrolovat, že tvůj kód dělá všechno, co má. Testy spustíš pomocí <code>vendor/bin/phpunit tests/</code></p>
