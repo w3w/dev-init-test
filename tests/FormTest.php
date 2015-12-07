@@ -56,6 +56,30 @@ class FormTest extends PHPUnit_Framework_TestCase
                 ],
                 false,
             ],
+            [
+                [
+                    'age' => '4',
+                    'email' => 'tomas.fejfar@w3w.cz',
+                    'phone' => '723 010 556',
+                ],
+                true,
+            ],
+            [
+                [
+                    'age' => '4',
+                    'email' => 'tomas.fejfar@w3w.cz ',
+                    'phone' => '+420 723 010 556',
+                ],
+                true,
+            ],
+            [
+                [
+                    'age' => '4',
+                    'email' => 'tomas.fejfar@w3w.cz ',
+                    'phone' => '+420723010',
+                ],
+                false,
+            ],
         ];
     }
 }
