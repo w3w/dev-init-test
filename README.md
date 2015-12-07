@@ -2,6 +2,7 @@
 
 * k provozu by mělo stačit mít 
     * integrovaný server v PHP
+        * pokud máš staré php, stahni si nové aspoň 5.6 z http://php.net/downloads.php
         * spustíš ho ve složce `src/` pomocí `php -S localhost:8080` a pak si otevřeš `http://localhost:8080` v prohlížeči
     * nainstalovaný composer 
         * návod na instalaci je na internetu 
