@@ -15,71 +15,71 @@ class FormTest extends PHPUnit_Framework_TestCase
 
     public function formData()
     {
-        return [
-            [
-                [
+        return array(
+            array(
+                array(
                     'age' => '4X',
                     'email' => 'nic vám nedám',
                     'phone' => '777 123 456',
-                ],
+                ),
                 false,
-            ],
-            [
-                [
+            ),
+            array(
+                array(
                     'age' => '40',
                     'email' => 'tomas.fejfar@w3w.cz',
                     'phone' => '+420111222333',
-                ],
+                ),
                 true,
-            ],
-            [
-                [
+            ),
+            array(
+                array(
                     'age' => '40',
                     'email' => 'tomas.fejfar@w3w.cz',
                     'phone' => '+42011122233',
-                ],
+                ),
                 false,
-            ],
-            [
-                [
+            ),
+            array(
+                array(
                     'age' => '4',
                     'email' => 'tomas.fejfar@w3w.cz',
                     'phone' => '723010556',
-                ],
+                ),
                 true,
-            ],
-            [
-                [
+            ),
+            array(
+                array(
                     'age' => '4',
                     'email' => 'tomas.fejfar@w3w',
                     'phone' => '723010556',
-                ],
+                ),
                 false,
-            ],
-            [
-                [
+            ),
+            array(
+                array(
                     'age' => '4',
                     'email' => 'tomas.fejfar@w3w.cz',
                     'phone' => '723 010 556',
-                ],
+                ),
                 true,
-            ],
-            [
-                [
+            ),
+            array(
+                array(
                     'age' => '4',
                     'email' => 'tomas.fejfar@w3w.cz ',
                     'phone' => '+420 723 010 556',
-                ],
+                ),
                 true,
-            ],
-            [
-                [
+            ),
+            array(
+                array(
                     'age' => '4',
                     'email' => 'tomas.fejfar@w3w.cz ',
                     'phone' => '+420723010',
-                ],
+                ),
                 false,
-            ],
-        ];
+            ),
+        );
     }
 }
