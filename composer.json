@@ -4,7 +4,12 @@
         "zf1/zend-validate": "^1.12",
         "zf1/zend-registry": "^1.12",
         "zf1/zend-view": "^1.12",
-        "phpunit/phpunit": "^5.0"
+        "phpunit/phpunit": "^4"
+    },
+    "config": {
+      "platform" : {
+        "php": "5.3.3"
+      }
     },
     "autoload": {
         "classmap":[
