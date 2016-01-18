@@ -4,9 +4,10 @@
     * integrovaný server v PHP
         * pokud máš staré php, stahni si nové aspoň 5.6 z http://php.net/downloads.php
         * spustíš ho ve složce `src/` pomocí `php -S localhost:8080` a pak si otevřeš `http://localhost:8080` v prohlížeči
+        * pokud php nemáš, tak si ho můžeš stahnout na http://windows.php.net/downloads/releases/php-5.6.17-nts-Win32-VC11-x86.zip
+            * stačí rozbalit a cestu k php.exe přidat do PATH (http://merlin.fit.vutbr.cz/FITkit/docs/navody/install_path.html)
     * nainstalovaný composer 
-        * návod na instalaci je na internetu 
-        * doporučuji instalátor, který ti ho nastaví tak, že se dá spouštět odkudkoli (WIN)
+        * https://getcomposer.org/doc/00-intro.md#using-the-installer
 * v každém kroku si nejprve zavolej `composer install`, aby se ti nainstalovaly závislosti
 * úkoly jsou připravené v branchích `task-1` až `task-n`
 * checkoutni si branch a normálně do ní přidávej commity, ať nepřijdeš o rozdělanou práci
