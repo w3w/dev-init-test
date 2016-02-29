@@ -8,6 +8,9 @@
             * stačí rozbalit a cestu k php.exe přidat do PATH (http://merlin.fit.vutbr.cz/FITkit/docs/navody/install_path.html)
     * nainstalovaný composer 
         * https://getcomposer.org/doc/00-intro.md#using-the-installer
+    * phpunit
+        * testy (pokud v příkladu jsou) spustíš z konzole z adresáře projektu vendor\bin\phpunit tests/
+        * o instalaci phpunitu se stará composer
 * v každém kroku si nejprve zavolej `composer install`, aby se ti nainstalovaly závislosti
 * úkoly jsou připravené v branchích `task-1` až `task-n`
 * checkoutni si branch a normálně do ní přidávej commity, ať nepřijdeš o rozdělanou práci
