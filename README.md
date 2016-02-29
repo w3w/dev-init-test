@@ -29,3 +29,4 @@
     * předchozí projekty
     * knížky
 * tohle není písemka ve škole (tj. klidně opisuj, máš-li z čeho)
+* až budeš hotový, pošli nám svou práci formou git patch nebo nám zabal celou svou složku (včetně .git adresáře) do ZIP archivu a pošli ji na e-mail
