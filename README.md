@@ -11,5 +11,5 @@ Zadání
     * cenu
     * výrobce
     * seznam parametrů s hodnotami
-* počítej, že feed může být i větší a že paměť na serveru je omezená (Bonus - zkus to jen se 2 MB paměti)
+* počítej, že feed může být i větší (např. 100 MB) a že paměť na serveru je omezená (Bonus - zkus upravit svůj skript s ohledem na nízkou spotřebu paměti)
 * kdybys měl problém, hned se ptej
