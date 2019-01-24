@@ -4,6 +4,11 @@ class ElasticaIndexer
 {
     const BULK_LIMIT = 100;
 
+    /**
+     * @param Zend_Db_Select $select SQL dotaz vracejici zaznamy k zaindexovani
+     * @param \Elastica\Index $index elasticsearch index kam zapisujeme data z databaze
+     * @return int pocet zaindexovanych zaznamu
+     */
     public function updateDocuments(Zend_Db_Select $select, \Elastica\Index $index)
     {
         $index->setSettings(array('index' => array('refresh_interval' => '-1')));
