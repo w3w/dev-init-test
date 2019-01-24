@@ -1,2 +1,2 @@
 <?php
-ini_set('memory_limit', '8M');
+ini_set('memory_limit', '16M');
