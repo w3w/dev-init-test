@@ -1,6 +1,7 @@
 <?php
-require_once __DIR__  . '/../vendor/autoload.php';
-class ValidatorTest extends PHPUnit_Framework_TestCase
+require_once __DIR__ . '/../vendor/autoload.php';
+
+class ValidatorTest extends PHPUnit\Framework\TestCase
 {
     /**
      * @dataProvider datesProvider
@@ -15,16 +16,16 @@ class ValidatorTest extends PHPUnit_Framework_TestCase
 
     public function datesProvider()
     {
-        return array(
-            array(
+        return [
+            [
                 '11. 1. 2015',
                 true,
-            ),
-            array(
+            ],
+            [
                 '20. 20. 2015',
                 false,
-            ),
+            ],
             // doplň podle potřeby
-        );
+        ];
     }
 }
