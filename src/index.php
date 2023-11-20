@@ -13,10 +13,10 @@ if (count($_POST)) {
         echo '</ul>';
     }
 } else {
-    $form->setDefaults(array(
-            'age' => '4X',
-            'email' => 'nic vám nedám',
-            'phone' => '777 123 456',
-    ));
+    $form->setDefaults([
+        'age' => '4X',
+        'email' => 'nic vám nedám',
+        'phone' => '777 123 456',
+    ]);
 }
 echo $form;
