@@ -11,7 +11,7 @@ class ElasticaIndexer
      */
     public function updateDocuments(Zend_Db_Select $select, \Elastica\Index $index)
     {
-        $index->setSettings(array('index' => array('refresh_interval' => '-1')));
+        $index->setSettings(['index' => ['refresh_interval' => '-1']]);
         $stmt = $select->query(Zend_Db::FETCH_ASSOC);
         $bulkData = [];
         $numberOfDocumentsIndexed = 0;
@@ -30,7 +30,7 @@ class ElasticaIndexer
         $index->flush();
         $index->refresh();
         $index->optimize();
-        $index->setSettings(array('index' => array('refresh_interval' => '1s')));
+        $index->setSettings(['index' => ['refresh_interval' => '1s']]);
         return $numberOfDocumentsIndexed;
     }
 }
