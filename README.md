@@ -25,6 +25,7 @@
     * internet
     * manuály
     * předchozí projekty
-    * knížky
+    * knížky 
+* pokud na to použiješ nějakou formu AI (Copilot, ChatGTP,...), rádi si s tebou projdeme prompty, které jsi na to použil(a)
 * tohle není písemka ve škole (tj. klidně opisuj, máš-li z čeho)
 * až budeš hotový, pošli nám svou práci formou git patch nebo nám zabal celou svou složku (včetně .git adresáře) do ZIP archivu a pošli ji na e-mail
