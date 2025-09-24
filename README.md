@@ -3,7 +3,7 @@
 * úkoly jsou připravené v branchích `task-1` až `task-n`
 * k provozu by mělo stačit mít
     * integrovaný server v PHP
-        * pokud máš staré php, stahni si nové aspoň 7.4
+        * pokud máš staré php, stahni si nové aspoň 8.2.28
         * spustíš ho ve složce `src/` pomocí `php -S localhost:8080` a pak si otevřeš `http://localhost:8080` v prohlížeči
     * nainstalovaný composer
         * https://getcomposer.org/doc/00-intro.md#using-the-installer
