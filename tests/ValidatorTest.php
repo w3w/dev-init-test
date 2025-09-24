@@ -8,13 +8,13 @@ class ValidatorTest extends PHPUnit\Framework\TestCase
      * @param string $date Datum
      * @param bool $expected očekávaný výsledek
      */
-    public function testValidDate($date, $expected)
+    public function testValidDate(string $date, bool $expected): void
     {
         $actual = ''; // doplň výstup z validátoru
         $this->assertEquals($expected, $actual);
     }
 
-    public function datesProvider()
+    public static function datesProvider(): array
     {
         return [
             [
